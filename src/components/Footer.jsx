@@ -1,3 +1,4 @@
 export function Footer() {
-  return <footer>© 2026 Wildflower</footer>;
+  return <footer>
+    <div class="footer-text">© 2026 Wildflower | {process.env.REACT_APP_STATUS} </div></footer>;
 }

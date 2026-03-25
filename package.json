@@ -14,10 +14,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
+    "preview": "serve -s build",
+    "lint": "eslint src/**/*.js src/**/*.jsx",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
+    "playwright": "playwright test"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +41,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^4.0.2",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "cypress": "^15.11.0",
+    "istanbul-lib-instrument": "^6.0.3",
+    "nyc": "^18.0.0",
+    "serve": "^14.2.6",
+    "supertest": "^7.2.2"
   }
 }

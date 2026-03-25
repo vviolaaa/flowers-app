@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": "1773193412886",
+      "username": "Charles Leclerc",
+      "email": "leclerc@thebest.com",
+      "password": "$2b$10$GZweGZemI6PJ6JRanAslr.Fc8tgiXBiE5ujfYLMmMgQpX2LHXyT8e",
+      "flowers": [
+        {
+          "flower": "/flowersPngs/flower1.png",
+          "flowerName": "Flower 1",
+          "bowSrc": "/bowsPngs/bow1.png",
+          "bowPosition": {
+            "x": 50.52770647727517,
+            "y": 66.88654184924036
+          }
+        }
+      ]
+    },
+    {
+      "id": "1773262281684",
+      "username": "testuser",
+      "email": "test@test.com",
+      "password": "$2b$10$40zUjSuSeV1B0bC1ZgbHSeFMWmWANMA/YlHVizJHcOWr0mGx85muq",
+      "flowers": []
+    },
+    {
+      "id": "1773262552049",
+      "username": "testuser",
+      "email": "test1773262549746@test.com",
+      "password": "$2b$10$8JkhD8ZMy8U0.q5se.DYSOQb48ERb1aSg3.KV3/z0egnYXDTS8qD2",
+      "flowers": []
+    },
+    {
+      "id": "1773262579944",
+      "username": "testuser",
+      "email": "test1773262578201@test.com",
+      "password": "$2b$10$gBZ4DjKWxuaUX5Hz9aAVLuhXAvYNIKLLrI3ZunxqkD8Gt9suv5Tte",
+      "flowers": []
+    },
+    {
+      "id": "1773262668108",
+      "username": "testuser",
+      "email": "test1773262666526@test.com",
+      "password": "$2b$10$e8d5juoid2AB1A/tkqAhjObgPLoUDJlO2c5aBt7kLarJTQIdaGZbq",
+      "flowers": []
+    },
+    {
+      "id": "1773262806808",
+      "username": "testuser",
+      "email": "test1773262805121@test.com",
+      "password": "$2b$10$YYyAdSKSkahjPOCvNIScTuW5yb7gSG.13ABiiWlSj4A9w/R3S5rX6",
+      "flowers": []
+    },
+    {
+      "id": "1773262840505",
+      "username": "testuser",
+      "email": "test1773262837998@test.com",
+      "password": "$2b$10$tdTOZzywwOonovQARKcVvexnfRqGVJ7H2pZCOIzmCCmbcGAtE27Ie",
+      "flowers": []
+    },
+    {
+      "id": "1773263030086",
+      "username": "testuser",
+      "email": "test1773263028462@test.com",
+      "password": "$2b$10$SNneygInDrlwiXAzvaTXZ..5ezGwXPzvspMlBCmtuRnqMzszyX3Ny",
+      "flowers": []
+    },
+    {
+      "id": "1773829727137",
+      "username": "testuser",
+      "email": "test1773829724833@test.com",
+      "password": "$2b$10$5hbwkhk72ZgDXXyPqQ3zPus1ljkdzO5MYvZ8THe3VCFr7/px1vAEW",
+      "flowers": []
+    },
+    {
+      "id": "1773830135243",
+      "username": "testuser",
+      "email": "test1773830133497@test.com",
+      "password": "$2b$10$.pUkf.6IZt5wz2XzxWCdw.l30JlqvD18LnVyr2GuxmhqUphOmzwwC",
+      "flowers": []
+    },
+    {
+      "id": "1773865466345",
+      "username": "testuser",
+      "email": "test1773865464428@test.com",
+      "password": "$2b$10$QnehgMzwLEXZniyaWJtzP.3rtjm.RffMxDSPXbOLHCMfPsU2ptK.m",
+      "flowers": []
+    },
+    {
+      "id": "1773865792004",
+      "username": "testuser",
+      "email": "test1773865790041@test.com",
+      "password": "$2b$10$PhopKCvshHnUZPfAhvIpEOKpCYSuk8Ll4BkAQVWkPk5uSRKDGNTIm",
+      "flowers": []
+    },
+    {
+      "id": "1773869038460",
+      "username": "testuser",
+      "email": "test1773869036875@test.com",
+      "password": "$2b$10$YtmvXXz3WvGEyP0ixH1fFupPqbC1Nm4oI5Cy/QAsYNzxNHicBSTVi",
+      "flowers": []
+    },
+    {
+      "id": "1773869058830",
+      "username": "testuser",
+      "email": "test1773869054536@test.com",
+      "password": "$2b$10$uF7203miBpVF/zKiK.A07OsQconaFhTEOU68k0okyXphjq/vnVLOq",
+      "flowers": []
+    },
+    {
+      "id": "1773869070738",
+      "username": "testuser",
+      "email": "test1773869065517@test.com",
+      "password": "$2b$10$k2ZyWSzn5Loj2X3RMrGaFeTOvychboIR3fFsrc37osfaW5x4oR97y",
+      "flowers": []
+    },
+    {
+      "id": "1773869227864",
+      "username": "testuser",
+      "email": "test1773869226763@test.com",
+      "password": "$2b$10$/WZvFDMG.S4s/I34Qr7hGudTL9ThbiZ4NfWanLRGD3zNUdc6M.sEO",
+      "flowers": []
+    },
+    {
+      "id": "1773869243808",
+      "username": "testuser",
+      "email": "test1773869241842@test.com",
+      "password": "$2b$10$RXRPy23F2iV8B4D2cAVXEuhLjC7ZW3vdAHTiOnKM1HB7egvRc7RhS",
+      "flowers": []
+    },
+    {
+      "id": "1773869256842",
+      "username": "testuser",
+      "email": "test1773869251945@test.com",
+      "password": "$2b$10$ntAfHVYOtcV0RAFCdeJ7fu9TJRWctdqdFJ4r7rwe/nmEj1K.hXPRm",
+      "flowers": []
+    },
+    {
+      "id": "1773869568963",
+      "username": "testuser",
+      "email": "test1773869567324@test.com",
+      "password": "$2b$10$24cwD/KznJcLyiyYSqmuDeHD/ExVW/NJ0YyNtaVmdJY6I8WF8cbAO",
+      "flowers": []
+    },
+    {
+      "id": "1773869581321",
+      "username": "testuser",
+      "email": "test1773869578597@test.com",
+      "password": "$2b$10$rmjby2sN1MyDPzvIlvVENO2UoRzTEoOnaWybha1cuYCFyxtAcsIFy",
+      "flowers": []
+    },
+    {
+      "id": "1773869601673",
+      "username": "testuser",
+      "email": "test1773869596404@test.com",
+      "password": "$2b$10$FXBOm92k7UjUgaGqXXUcEOojL7nPK/SEKBew7wIKG0ykM1Iuw623q",
+      "flowers": []
+    },
+    {
+      "id": "1773869688495",
+      "username": "testuser",
+      "email": "test1773869687327@test.com",
+      "password": "$2b$10$B8iv2aznL7qQ7ne5FJZIquYYihDTOXlWwuOzs5LeZszzCukOl5QA2",
+      "flowers": []
+    },
+    {
+      "id": "1773869699595",
+      "username": "testuser",
+      "email": "test1773869696648@test.com",
+      "password": "$2b$10$lSAY33WOnIhX9RHRTExrReHHS7lhhb4kFrLTiLWcmwrvrymDQzmo2",
+      "flowers": []
+    },
+    {
+      "id": "1773869718085",
+      "username": "testuser",
+      "email": "test1773869712607@test.com",
+      "password": "$2b$10$QkBMJ2d4C4KIa/dm90QodOhdZVtTkZypVMJcIz2z3Djfb2m2qN8Bu",
+      "flowers": []
+    }
+  ]
+}

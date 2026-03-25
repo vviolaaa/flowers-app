@@ -11,11 +11,11 @@ export function ExploreContainer() {
         <div className="explore-container">
             <button>Explore</button>
 
-            <img id="rose-image" src={roseImage}></img>
-            <img id="tulip-image" src={tulipImage}></img>
-            <img id="blue-flower-image" src={blueFlower}></img>
-            <img id="daisy-image" src={daisyImage}></img>
-            <img id="violet-image" src={violetImage}></img>
+            <img id="rose-image" src={roseImage} alt="rose"></img>
+            <img id="tulip-image" src={tulipImage} alt="tulip"></img>
+            <img id="blue-flower-image" src={blueFlower} alt="blue flower"></img>
+            <img id="daisy-image" src={daisyImage} alt="daisy"></img>
+            <img id="violet-image" src={violetImage} alt="violet"></img>
 
             
         </div>

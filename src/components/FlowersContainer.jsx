@@ -1,13 +1,11 @@
 import "../index.css"
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIos } from "react-icons/md";
-import colorfulRose from '../assets/colorfulRose.png'
 import { useState } from "react";
 import { flowers } from '../data/flowersData';
-
 import { FlowerModal } from './FlowerModal';
 
-export function FlowersContainer() {
+export function FlowersContainer({ onSave, savedCount }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -24,8 +22,8 @@ export function FlowersContainer() {
     return (
         <div className="flowers-container">
             <div className="flowers-title"><p>FLOWERS</p></div>
-            <button id="back-button" onClick={goBack}><MdArrowBackIos /></button>
-            <button id="forward-button" onClick={goForward}><MdArrowForwardIos /></button>
+            <button id="back-button" data-testid="back-button" onClick={goBack}><MdArrowBackIos /></button>
+            <button id="forward-button" data-testid="forward-button" onClick={goForward}><MdArrowForwardIos /></button>
             <div className="flower-choosing-box" onClick={() => setIsModalOpen(true)}>
                 <img src={currentFlower.image} alt={currentFlower.name} />
             </div>
@@ -34,6 +32,8 @@ export function FlowersContainer() {
                 <FlowerModal
                     flower={currentFlower}
                     onClose={() => setIsModalOpen(false)}
+                    onSave={onSave}
+                    savedCount={savedCount}
                 />
             )}
         </div>
