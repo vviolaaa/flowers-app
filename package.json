@@ -47,5 +47,11 @@
     "prettier": "^3.8.1",
     "serve": "^14.2.6",
     "supertest": "^7.2.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/src/backend/"
+    ]
   }
 }
