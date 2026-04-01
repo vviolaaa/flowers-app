@@ -24,12 +24,6 @@
     "cypress:run": "cypress run",
     "playwright": "playwright test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -47,8 +41,10 @@
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0",
     "cypress": "^15.11.0",
+    "eslint-config-prettier": "^10.1.8",
     "istanbul-lib-instrument": "^6.0.3",
     "nyc": "^18.0.0",
+    "prettier": "^3.8.1",
     "serve": "^14.2.6",
     "supertest": "^7.2.2"
   }

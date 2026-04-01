@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 4
+}
+```
+
+**`.prettierignore`** — create in project root:
+```
+node_modules
+build
+dist
