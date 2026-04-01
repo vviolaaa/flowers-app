@@ -7,7 +7,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 5000;
-process.env.SERVER_SECRET || 'wildflower_secret_key';
+const SECRET = process.env.SERVER_SECRET || 'wildflower_secret_key';
 const DB_PATH = path.join(__dirname, 'db.json');
 
 app.use(cors());
