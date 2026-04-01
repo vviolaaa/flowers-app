@@ -29,7 +29,11 @@ jobs:
 
       - name: Run unit tests
         run: npm test -- --watchAll=false --coverage
+        env:
+          SERVER_SECRET: ${{ secrets.SERVER_SECRET }}
 
       - name: Build project
         run: npm run build
+        env:
+          SERVER_SECRET: ${{ secrets.SERVER_SECRET }}
 
