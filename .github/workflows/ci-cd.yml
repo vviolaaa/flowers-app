@@ -9,20 +9,23 @@ on:
       - master
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
+  build-and-test:              #Назвемо його build-and-test
+    runs-on: ubuntu-latest     #ubuntu-latest — стандартний образ Linux
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4    #Налаштування оточення Node.js
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '18'         #встановити потрібну версію Node.js
 
-      - name: Install dependencies
+      - name: Install dependencies   #Встановлення залежностей з package-lock.json
         run: npm install
+
+      - name: Run lint
+        run: npm run lint
 
       - name: Run unit tests
         run: npm test -- --watchAll=false --coverage
